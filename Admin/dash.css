@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    padding: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.product-item {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.product-item h3 {
+    margin: 0 0 5px;
+}
+
+.product-item p {
+    margin: 5px 0;
+    font-size: 1.5vw;
+}
+
+button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c82333;
+}
+.product-image {
+    width: 10vh; /* Adjust the size as needed */
+    height: auto;
+    object-fit: cover; /* Ensures the image is not distorted */
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}

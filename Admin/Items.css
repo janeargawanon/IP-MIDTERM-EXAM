@@ -1,0 +1,263 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+.container1 {
+    position: absolute;
+    width: 21%;
+    height: 150%;
+    background-color: #000000;
+    color: white;
+    align-items: flex-start;
+}
+.text-image-container {
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.category{
+    position: absolute;
+    margin-left: 30.5%;
+    margin-top: 2%;
+    width: 23%;
+    height: 8vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img1 {
+    width: 4vw;
+    height: 10%;
+    margin-left: 5%;
+}
+
+h2 {
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 0;
+}
+.action_page a{
+    text-decoration: none;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    padding: 10%;
+    font-size: 1.7vw;
+    text-align: center;
+    top: 50%;
+}
+.action_page{
+    margin-top: 15%;
+    flex-direction: column;
+}
+.dash{
+    padding: 2%;
+    margin-left: 10%;
+    max-width: 15%;
+}
+.text-image-container2{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.text-image-container2:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+    border-radius: 25px;
+}
+
+.text-image-container2:hover .dash {
+    filter: invert(1); 
+    transform: scale(1.2);
+    width: 10%;
+}
+
+.text-image-container2:hover .board{
+    color: #050505; 
+}
+.cus{
+    padding: 2%;
+    margin-left: 10%;
+    max-width: 15%;
+}
+.text-image-container3{
+    display: flex;
+    align-items: center;
+}
+.mes{
+    padding: 2%;
+    margin-left: 10%;
+    max-width: 15%;
+}
+.text-image-container4{
+    display: flex;
+    align-items: center;
+}
+.items{
+    padding: 2%;
+    margin-left: 10%;
+    max-width: 15%;
+}
+.text-image-container5{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.text-image-container5:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.02);
+    border-radius: 25px;
+}
+
+.text-image-container5:hover .items {
+    filter: invert(1); 
+    transform: scale(1.2);
+    width: 10%;
+}
+
+.text-image-container5:hover .item{
+    color: #050505; 
+}
+.set{
+    padding: 2%;
+    margin-left: 10%;
+    max-width: 15%;
+}
+.text-image-container6{
+    display: flex;
+    align-items: center;
+}
+
+.container2 {
+    margin-left: 21%;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    height: auto;
+    max-width: 100%;
+}
+
+.productandsection {
+    display: flex;
+    gap: 19%;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+
+.product, .sec{
+    margin-bottom: 3%;
+}
+
+.product label,  .price label, .uploadForm label, .form-group label {
+    font-size: 1.2vw;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 2vh;
+}
+
+input[type="text"], input[type="file"] {
+    max-height: 8vh;
+    width: 140%;
+    max-width: 350px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 1.2vw;
+    box-sizing: border-box;
+}
+
+.price input {
+    display: inline-block;
+    margin-right: 5px;
+    width: calc(40% - 5px);
+    max-width: 150px;
+    height: 8vh;
+}
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+    color: #f0f0f0;
+}
+
+.uploadFormsContainer {
+    display: flex;
+    padding: 1.5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    gap: 4%;
+    margin-bottom: 10px;
+}
+.price, .uploadForm{
+    margin-bottom: 3%;
+}
+
+.price {
+    margin-top: 10px;
+    width: 37%;
+    border-radius: 10px;
+}
+.uploadForm {
+    margin-top: 1%;
+    margin: 0;
+    padding: 1.5%;
+    flex: 1;
+    max-width: 300px;
+}
+
+.uploadForm input[type="file"] {
+    width: 85%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    height: 8vh;
+    align-items: center;
+}
+/* .form-group{
+    margin-bottom: 6px;
+    margin-top: 5px;
+} */
+.add {
+    margin-top: 17%;
+    position: absolute;
+    height: 10%;
+    width: 13%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin-left: 25%;
+    display: block;
+    text-align: center;
+    font-size: 1.3vw;
+    align-items: center;
+}
+.page{
+    position: absolute;
+    margin-right: 50%;
+    margin-top: 25%;
+    font-size: 1.5vw;
+}
+.des{
+    position: absolute;
+    margin-top: 10%;
+    font-size: 1rem;
+}
+textarea{
+    margin-top: 20%;
+    border-radius: 5px;
+    width: 250%;
+}
+
+
+

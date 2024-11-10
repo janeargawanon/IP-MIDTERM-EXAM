@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>LandingPage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="homepage.css">
+  
+  <style>
+  .carousel-inner img {
+    width: 100%;
+    height:630px;
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+</head>
+<body>
+  
+<div class="navbar">
+   <label class="logo">Aurora Jewel</label>
+  
+  
+  </div> 
+
+  
+
+<div id="page" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#page" data-slide-to="0" class="active"></li>
+    <li data-target="#page" data-slide-to="1"></li>
+    <li data-target="#page" data-slide-to="2"></li>
+    <li data-target="#page" data-slide-to="3"></li>
+    <li data-target="#page" data-slide-to="4"></li>
+
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/Screenshot 2024-11-09 155638.png" alt="" width="50" height="50">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/1.jpg" alt="" width="50" height="50">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/2.jpg" alt="" width="50" height="50">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/3.jpg" alt="" width="50" height="50">
+    </div>
+     <div class="carousel-item">
+      <img src="./img/4.jpg" alt="" width="50" height="50">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#page" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#page" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#page" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+<div class="box">
+  <div class="background-overlay"></div>
+  <h2 class="best hidden-scroll">Best Jewelry</h2>
+  <button class="view hidden-scroll" onclick="Earrings()">View More</button>
+</div>
+    <div class="box2 hidden-scroll">
+      <div class="title">
+        <div class="container1 hidden-scroll">
+          <div class="card">
+            <img src="./img/f89cb1ef7bcaea6875c6e31460377bcf 1.jpg" alt="">
+            <p class="name">Earrings</p>
+            <button class="view-more" onclick="products()" >View More</button>
+          </div>
+          <div class="card">
+            <img src="./img/download (6) 1.jpg" alt="">
+            <p class="name">Necklaces</p> 
+            <button class="view-more" onclick="products()" >View More</button>
+          </div>
+          <div class="card">
+            <img src="./img/download (7) 1.jpg" alt="">
+            <p class="name">Bracelet</p>
+            <button class="view-more" onclick="products()">View More</button>
+          </div>
+          <div class="card">
+            <img src="./img/18k Rose Gold Kada 1.jpg" alt="">
+            <p class="name">Rings</p>
+              <button class="view-more" onclick="products()">View More</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <div class="box3 ">
+          <h2>Store & Services</h2>
+          <div class="container">
+            <div class="card hidden-scroll">
+              <img src="./img/image 35.jpg" alt="" class="imgcard">
+              <button class="view-more">See Details</button>
+              <h3>Our Store</h3>
+              <li>Discover our thoughtfully designed stores in Manila</li>
+            </div>
+            <div class="card hidden-scroll">
+              <img src="./img/image 34.jpg" alt="" class="imgcard">
+              <button class="view-more">See Details</button>
+              <h3>Find your style!</h3>
+              <li>Discover and express your unique personality through fashion, design, or preferences.</li>
+            </div>
+            <div class="card hidden-scroll">
+              <img src="./img/image.jpg" alt="" class="imgcard">
+              <button class="view-more">See Details</button>
+              <h3>Engraving</h3>
+              <li> Engraved jewelry offers a personal touch, turning each piece into a unique keepsake with custom names, dates, or messages—perfect for gifting or special occasions.</li>
+            </div>
+
+        </div>
+    </div>
+    
+    <footer>
+      <div class="container ">
+          <div class="row hidden-scroll">
+              <div class="footer-col">
+                  <h4>Costumer Care</h4>
+                  <ul>
+                      <li><a href="">Location, Location</a></li>
+                      <li><a href="">09123456789</a></li>
+                      <li><a href="">aurora_jewel@gmail.com</a></li>
+                  </ul>
+              </div>
+
+              <!-- 2nd Column -->
+              <div class="footer-col">
+                  <h4>Costumer Care</h4>
+                  <ul>
+                      <li><a href="">Order Info</a></li>
+                      <li><a href="">Services</a></li>
+                      <li><a href="">FAQ</a></li>
+                  </ul>
+              </div>
+
+              <!-- 3rd Column -->
+              <div class="footer-col">
+                  <h4>Privacy & Legal</h4>
+                  <ul>
+                      <li><a href="">Privacy Center</a></li>
+                      <li><a href="">Terms of Use</a></li>
+                      <li><a href="">Terms and Condition</a></li>
+                      
+                  </ul>
+              </div>
+          <hr>
+          <div class="row">
+              <div class="col">
+                  <p>&#169;Follow Us.</p>
+              </div>
+              <div class="socialIcons">
+                  <a href=""><i class="fa-brands fa-facebook"></i></a>
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-twitter"></i></a>
+                  <a href=""><i class="fa-brands fa-youtube"></i></a>
+                  <a href=""><i class="fa-brands fa-pinterest"></i></i></a>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <script src="homepage.js"></script>
+</body>
+</html>
+ 
+    
+  
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Items.css">
+    <title>Document</title>
+</head>
+<body>
+  
+  <div class="container1">
+      <div class="text-image-container">
+        <img src="./img2/6ceb066e-ff64-4f95-b424-b6ff0b35f002 2.png" alt="" class="img1">
+        <h2>Aurora Jewel</h2>
+      </div>
+
+      <div class="action_page">
+        <div class="text-image-container2">
+          <img src="./img2/solar_home-broken (1).png" alt="" class="dash">
+          <a href="./Dashboard.html" class="board">Dashboard</a>
+        </div>
+
+        <div class="text-image-container3">
+          <img src="./img2/Vector (2).png" alt="" class="cus">
+          <a href="#">Customers</a>
+        </div>
+        
+        <div class="text-image-container4">
+          <img src="./img2/tabler_message.png" alt="" class="mes">
+          <a href="#">Messages</a>
+        </div>
+
+        <div class="text-image-container5">
+          <img src="./img2/material-symbols_help-outline.png" alt="" class="items">
+          <a href="Items.html" class="item">Products</a>
+        </div>
+
+        <div class="text-image-container6">
+          <img src="./img2/Vector (2).png" alt="" class="set">
+          <a href="#">Settings</a>
+        </div>
+      </div>
+  </div>
+
+  <div class="container2">
+    <form id="productForm">
+      <div class="productandsection">
+        <div class="product">
+          <label for="productName">Product Name</label>
+          <input type="text" id="productName" name="productName" required>
+        </div>
+
+        <label for="category">Category:</label>
+        <select id="category" required class="category">
+            <option value="Jewelry">Earrings</option>
+            <option value="Jewelry">Necklaces</option>
+            <option value="Jewelry">Bracelet</option>
+            <option value="Electronics">Rings</option>
+            <option value="Clothing">Watch</option>
+        </select><br><br>
+      </div>
+
+      <div class="uploadFormsContainer">
+        <div class="price">
+          <label for="productPrice">Price / Quantity</label>
+          <input type="price" id="productPrice" name="price" placeholder="Price" required> / 
+          <input type="number" id="quantity" name="quantity" placeholder="Quantity" required>
+        </div>
+
+        <div class="uploadForm">
+          <label for="fileInput">Select Image:</label>
+          <input type="file" id="fileInput" name="file" accept="image/*">
+        </div>
+
+        <div class="des">
+          <label for="productDescription">Description</label>
+          <textarea class="form-control" id="productDescription" name="description" placeholder="Description" style="height: 100px"></textarea>
+        </div>
+      </div>
+
+      <button type="submit" class="add">Add Product</button>
+    </form>
+  </div>
+
+  <script src="item.js"></script>
+</body>
+</html>
