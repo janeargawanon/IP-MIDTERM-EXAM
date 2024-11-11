@@ -14,9 +14,9 @@ window.onload = function() {
             productItem.innerHTML = `
                 <img src="${product.image}" alt="${product.name}">
                 <h3>${product.name}</h3>
-                <p>Category ${product.category}</p>
-                <p>Price ₱${product.price}</p>
-                <p>Quantity ${product.quantity}</p>
+                <p> ${product.category}</p>
+                <p>₱${product.price}</p>
+                <p> ${product.quantity}</p>
                 <button class="remove-button" data-index="${index}">Remove</button>
             `;
 

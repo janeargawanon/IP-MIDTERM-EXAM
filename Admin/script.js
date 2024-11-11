@@ -54,7 +54,6 @@ signupForm.addEventListener("submit", function (event) {
     signupForm.reset();
   }
 
-//   console.log(signupform);
 });
 
 
@@ -69,7 +68,7 @@ loginForm.addEventListener("submit", function (event) {
   if (storedUserData && storedUserData.email === email && storedUserData.password === password) {
     alert("Login successful!");
     console.log("Redirecting to index.html...");
-    window.location.href = "homepage.html";  // Ensure the path is correct
+    window.location.href = "homepage.html";
   } else {
     alert("Incorrect email or password. Please try again.");
   }

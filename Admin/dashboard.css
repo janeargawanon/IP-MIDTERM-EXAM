@@ -212,7 +212,11 @@ h2 {
     gap: 6px;
     justify-content: flex-start;
 }
-
+.id{
+    display: flex;
+    gap: 16%;
+    margin-left: 24%;
+}
 .product-item {
     display: flex;
     align-items: center;
